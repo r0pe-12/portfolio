@@ -15,4 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('public.portfolio');
+})->name('landing');
+
+Route::fallback(function () {
+    return redirect()->route('landing');
 });
