@@ -1,0 +1,27 @@
+.nameGradient {
+    background: -webkit-linear-gradient(45deg, #9845E8, #33D2FF, #DD5789);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.social-link {
+    background: linear-gradient(var(--bs-body-bg), var(--bs-body-bg)) padding-box,
+    linear-gradient(45deg, #9845E8, #33D2FF, #DD5789) border-box;
+
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+
+    color: var(--bs-body-color);
+    font-weight: bold;
+}
+
+.gradientBorder {
+    background: linear-gradient(var(--bs-body-bg), var(--bs-body-bg)) padding-box,
+    linear-gradient(45deg, #9845E8, #33D2FF, #DD5789) border-box;
+
+    border: 2px solid transparent;
+}
