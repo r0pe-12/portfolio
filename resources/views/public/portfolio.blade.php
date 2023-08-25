@@ -61,11 +61,11 @@
                 <h1 class="nameGradient fw-bolder" style="font-size: 7vw;">Petar Simonovic</h1>
                 <div class="text_hide"></div>
                 <p>
-                    Hello! I'm an 18-year-old full-stack web developer hailing from Montenegro. 🌍 My love of coding is
+                    I'm an 18-year-old full-stack web developer hailing from Montenegro. 🌍 My love of coding is
                     limitless, and I've been on an exciting journey of learning and producing in the digital world.
                     <br><br>
 
-                    My portfolio includes an [array] of projects that highlight my passion for web development. I'm on a
+                    My portfolio includes an <b>[array]</b> of projects that highlight my passion for web development. I'm on a
                     mission to make the web a more interesting and functional place, from designing flexible websites to
                     developing dynamic web applications.
                     <br><br>
