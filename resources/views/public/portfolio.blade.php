@@ -65,7 +65,8 @@
                     limitless, and I've been on an exciting journey of learning and producing in the digital world.
                     <br><br>
 
-                    My portfolio includes an <b>[array]</b> of projects that highlight my passion for web development. I'm on a
+                    My portfolio includes an <b>[array]</b> of projects that highlight my passion for web development.
+                    I'm on a
                     mission to make the web a more interesting and functional place, from designing flexible websites to
                     developing dynamic web applications.
                     <br><br>
@@ -220,6 +221,125 @@
     </section>
 
     <hr>
+
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h5>FEATURED PROJECTS</h5>
+            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 gx-3 gy-5">
+                <div class="col d-flex align-items-stretch">
+                    <div class="card gradientBorder w-100">
+                        <img src="{{ asset('placeholder.svg') }}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">techRadar</h5>
+                            <p class="card-text fw-light">
+                                Admin panel used by <a target="_blank" href="https://ictcortex.me/en/">ICT Cortex</a> to
+                                manage their
+                                companies, users, projects and much more.
+                            </p>
+                            <p class="card-text fw-light text-primary">
+                                Laravel - Bootstrap - MariaDB
+                            </p>
+                            <div class="row">
+                                <div class="col-6">
+                                    <a href="https://techradar.petardev.live/" target="_blank" class="social-link">
+                                        <i class="fa-solid fa-link"></i>
+                                    </a>
+                                </div>
+                                <div class="col-6">
+                                    <a href="https://github.com/r0pe-12/techRadar" target="_blank"
+                                       class="social-link">
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-stretch">
+                    <div class="card gradientBorder w-100">
+                        <img src="{{ asset('placeholder.svg') }}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">betterEdu</h5>
+                            <p class="card-text fw-light">
+                                Web app used by students to ask questions and distribute resources.
+                            </p>
+                            <p class="card-text fw-light text-primary">
+                                React - Bootstrap
+                            </p>
+                            <div class="row">
+                                <div class="col-6">
+                                    <a href="https://betteredu.me/" target="_blank" class="social-link">
+                                        <i class="fa-solid fa-link"></i>
+                                    </a>
+                                </div>
+                                <div class="col-6">
+                                    <a href="https://github.com/r0pe-12/betterEdu" target="_blank"
+                                       class="social-link">
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-stretch">
+                    <div class="card gradientBorder w-100">
+                        <img src="{{ asset('placeholder.svg') }}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">betterEdu - API</h5>
+                            <p class="card-text fw-light">
+                                API and Admin panel for managing betterEdu system.
+                            </p>
+                            <p class="card-text fw-light text-primary">
+                                Laravel - Bootstrap - MariaDB
+                            </p>
+                            <div class="row">
+                                <div class="col-6">
+                                    <a href="https://admin.betteredu.me/login" target="_blank" class="social-link">
+                                        <i class="fa-solid fa-link"></i>
+                                    </a>
+                                </div>
+                                <div class="col-6">
+                                    <a href="https://github.com/r0pe-12/betterEdu-api" target="_blank"
+                                       class="social-link">
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-stretch">
+                    <div class="card gradientBorder w-100">
+                        <img src="{{ asset('placeholder.svg') }}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Online library</h5>
+                            <p class="card-text fw-light">
+                                Simple solution which can be used by schools or public libraries to manage books in
+                                stock.
+                            </p>
+                            <p class="card-text fw-light text-primary">
+                                Laravel - Bootstrap - MariaDB
+                            </p>
+                            <div class="row">
+                                <div class="col-6">
+                                    <a href="https://www.biblioteka.petardev.live/" target="_blank" class="social-link">
+                                        <i class="fa-solid fa-link"></i>
+                                    </a>
+                                </div>
+                                <div class="col-6">
+                                    <a href="https://github.com/r0pe-12/tim2-biblioteka" target="_blank"
+                                       class="social-link">
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </div>
 </body>
 </html>
